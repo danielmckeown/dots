@@ -20,15 +20,10 @@ import matplotlib.animation as animation
 
 # Create particle space in which to place them
 class ParticleBox:
-    """Orbits class
     
-    init_state is an [N x 4] array, where N is the number of particles:
-       [[x1, y1, vx1, vy1],
-        [x2, y2, vx2, vy2],
-        ...               ]
 
-    bounds is the size of the box: [xmin, xmax, ymin, ymax]
-    """
+   # bounds is size of the box: [xmin, xmax, ymin, ymax]
+  
     def __init__(self,
                  init_state = [[1, 0, 0, -1],
                                [-0.5, 0.5, 0.5, 0.5],
