@@ -1,5 +1,5 @@
 
-#My program is largely object oriented and creates as many particles 
+#This program creates as many particles 
 #as desired of mass M inside a bounding box of a given size. All of 
 #these variables are fully and infinitely adjustable. The density 
 #calculation is accomplished by creating a radial distance calculation, 
