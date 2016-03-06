@@ -78,9 +78,9 @@ while( count < 5 ):
     #print w
     mass = len(w[0]) * (M)
     #print mass
-    area = 4/3*3.14*(big_r**3) - 4/3*3.14*(little_r**3)
+    volume = 4/3*3.14*(big_r**3) - 4/3*3.14*(little_r**3)
     
-    mass_density = (mass/area)
+    mass_density = (mass/volume)
     print "mass density from" 
     print big_r 
     print "to" 
